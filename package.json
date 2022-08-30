@@ -11,9 +11,9 @@
     "vue"
   ],
   "bugs": "https://github.com/visualfanatic/vue-svg-loader/issues",
-  "repository": "visualfanatic/vue-svg-loader",
+  "repository": "DavidTCarpenters/vue-svg-loader",
   "license": "MIT",
-  "author": "Damian Stasik <npm@coded.pl>",
+  "author": "Damian Stasik <npm@coded.pl> David Thompson <dtho@carpentersgroup.co.uk>",
   "main": "index.js",
   "dependencies": {
     "loader-utils": "^2.0.0",
