@@ -1,10 +1,9 @@
 const { optimize } = require('svgo');
-const { getOptions } = require('loader-utils');
 const { version } = require('vue');
 const semverMajor = require('semver/functions/major')
 
 module.exports = function vueSvgLoader(svg) {
-  const { svgo: svgoConfig } = getOptions(this) || {};
+  const { svgo: svgoConfig } = this.getOptions() || {};
 
   if (svgoConfig !== false) {
     ({ data: svg } = optimize(svg, {
